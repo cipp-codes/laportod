@@ -2478,7 +2478,7 @@ export default function CreateReport() {
           className="inline-flex min-h-9 items-center gap-2 text-sm font-medium text-stone-500 transition hover:text-emerald-800"
         >
           <ArrowLeft size={16} />
-          Kembali ke Home
+          Kembali ke Beranda
         </Link>
 
         <div className="mt-6 sm:mt-7">

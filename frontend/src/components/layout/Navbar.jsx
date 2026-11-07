@@ -6,13 +6,13 @@ import { useAuth } from "../../context/AuthContext";
 import { useToast } from "../../context/ToastContext";
 
 const guestNavItems = [
-  { label: "Home", to: "/" },
+  { label: "Beranda", to: "/" },
   { label: "Peta Persebaran", to: "/peta" },
   { label: "Buat Laporan", to: "/buat-laporan" },
 ];
 
 const citizenNavItems = [
-  { label: "Home", to: "/" },
+  { label: "Beranda", to: "/" },
   { label: "Peta Persebaran", to: "/peta" },
   { label: "Buat Laporan", to: "/buat-laporan" },
   { label: "Laporan Saya", to: "/laporan-saya" },

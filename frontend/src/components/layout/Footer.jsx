@@ -3,13 +3,13 @@ import { MapPin, ArrowUpRight } from "lucide-react";
 import { useAuth } from "../../context/AuthContext";
 
 const guestLinks = [
-  { label: "Home", to: "/" },
+  { label: "Beranda", to: "/" },
   { label: "Peta Persebaran", to: "/peta" },
   { label: "Buat Laporan", to: "/buat-laporan", featured: true },
 ];
 
 const citizenLinks = [
-  { label: "Home", to: "/" },
+  { label: "Beranda", to: "/" },
   { label: "Peta Persebaran", to: "/peta" },
   { label: "Buat Laporan", to: "/buat-laporan", featured: true },
   { label: "Laporan Saya", to: "/laporan-saya", featured: true },
