@@ -397,7 +397,7 @@ function ReportDetailModal({
                   >
                     <div className="flex flex-wrap items-center justify-between gap-2">
                       <span className="text-sm font-semibold text-emerald-900">
-                        Petugas SmartCitizen
+                        Petugas LaporTOD
                       </span>
 
                       <span className="text-[11px] text-stone-500">

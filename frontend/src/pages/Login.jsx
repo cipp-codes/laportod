@@ -52,8 +52,8 @@ export default function Login() {
         title: "Login berhasil!",
         message:
           userRole === "petugas"
-            ? "Selamat datang, Petugas SmartCitizen."
-            : "Selamat datang kembali di SmartCitizen.",
+            ? "Selamat datang, Petugas LaporTOD."
+            : "Selamat datang kembali di LaporTOD.",
       });
 
       // Petugas selalu diarahkan ke halaman Kelola Laporan.
@@ -166,7 +166,7 @@ export default function Login() {
           >
             <MapPin size={23} />
             <span className="text-lg font-bold text-stone-900">
-              SmartCitizen
+              LaporTOD
             </span>
           </Link>
 

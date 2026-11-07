@@ -777,7 +777,7 @@ export default function ManageReports() {
     XLSX.utils.book_append_sheet(workbook, worksheet, "Data Laporan");
 
     const tanggal = new Date().toISOString().slice(0, 10);
-    XLSX.writeFile(workbook, `Laporan-SmartCitizen-${tanggal}.xlsx`);
+    XLSX.writeFile(workbook, `Laporan-LaporTOD-${tanggal}.xlsx`);
 
     showToast({
       type: "success",

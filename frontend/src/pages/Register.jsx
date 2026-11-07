@@ -78,7 +78,7 @@ export default function Register() {
         showToast({
           type: "success",
           title: "Pendaftaran berhasil!",
-          message: "Selamat datang di SmartCitizen.",
+          message: "Selamat datang di LaporTOD.",
         });
 
         navigate("/", { replace: true });
@@ -121,7 +121,7 @@ export default function Register() {
         <div className="hidden flex-col justify-between bg-emerald-900 p-8 text-white md:flex lg:p-10">
           <Link to="/" className="inline-flex w-fit items-center gap-3">
             <MapPin size={28} />
-            <span className="text-xl font-bold">SmartCitizen</span>
+            <span className="text-xl font-bold">LaporTOD</span>
           </Link>
 
           <div className="my-10">
@@ -149,14 +149,14 @@ export default function Register() {
           {/* Logo khusus mobile */}
           <Link to="/" className="inline-flex min-h-10 items-center gap-2 rounded-lg text-emerald-800 md:hidden">
             <MapPin size={23} />
-            <span className="text-lg font-bold text-stone-900">SmartCitizen</span>
+            <span className="text-lg font-bold text-stone-900">LaporTOD</span>
           </Link>
 
           <p className="mt-6 text-[11px] font-semibold tracking-[0.15em] text-emerald-800 sm:text-xs">BUAT AKUN BARU</p>
 
           <h2 className="mt-3 text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">Bergabung dengan kami</h2>
 
-          <p className="mt-3 text-sm leading-6 text-stone-500">Isi data berikut untuk mulai menggunakan SmartCitizen.</p>
+          <p className="mt-3 text-sm leading-6 text-stone-500">Isi data berikut untuk mulai menggunakan LaporTOD.</p>
 
           <form onSubmit={handleSubmit} className="mt-6 space-y-5 sm:mt-8">
             {/* Nama lengkap */}
