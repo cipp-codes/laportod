@@ -23,6 +23,19 @@ export const TOD_AREAS = [
     radiusMeters: 800,
     boundaryVerified: false,
   },
+  // {
+  //   id: "pondok-cabe",
+  //   name: "TOD Pondok Cabe",
+  //   station: "Terminal Pondok Cabe",
+  //   city: "Tangerang Selatan",
+  //   district: "Pamulang",
+  //   center: {
+  //     latitude: -6.3425,
+  //     longitude: 106.7615,
+  //   },
+  //   radiusMeters: 800,
+  //   boundaryVerified: false,
+  // },
   {
     id: "pondok-cabe",
     name: "TOD Pondok Cabe",
@@ -30,8 +43,8 @@ export const TOD_AREAS = [
     city: "Tangerang Selatan",
     district: "Pamulang",
     center: {
-      latitude: -6.3425,
-      longitude: 106.7615,
+      latitude: -6.358650,
+      longitude: 106.753999,
     },
     radiusMeters: 800,
     boundaryVerified: false,

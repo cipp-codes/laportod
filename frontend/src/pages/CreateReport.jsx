@@ -2167,7 +2167,7 @@ export default function CreateReport() {
 
       if (!results.length) {
         showMessage(
-          "Lokasi tidak ditemukan. Coba nama tempat yang lebih spesifik, misalnya Stasiun Duri, Jakarta Barat.",
+          "Lokasi tidak ditemukan. Coba nama tempat yang lebih spesifik, misalnya Stasiun Rawa Buntu, Tangerang Selatan.",
           "error",
         );
         return;
@@ -2613,7 +2613,7 @@ export default function CreateReport() {
                         searchPlace();
                       }
                     }}
-                    placeholder="Misalnya Stasiun Duri, Jakarta Barat"
+                    placeholder="Misalnya Stasiun Rawa Buntu, Tangerang Selatan"
                     className="min-w-0 flex-1 bg-transparent py-3 text-sm outline-none placeholder:text-stone-400"
                   />
                 </div>
